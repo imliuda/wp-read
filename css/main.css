@@ -42,7 +42,7 @@ h1.site-title, h1.site-title a { font-family:"UnifrakturMaguntia", Georgia, seri
 /* Text Selection */
 ::selection { text-shadow:none; color:#333; background:#FFFFCF; }
 ::-moz-selection { text-shadow:none; color:#333; background:#FFFFCF; }
-body { color:#444; background: #fff; }
+body { color:#333; background: #fff; }
 
 
 /* -------------------------------------------- */
@@ -82,7 +82,7 @@ h1.site-title a:hover { color:#000; }
 .main-navigation ul li { position:relative; display:inline-block; margin:0 1.25em; padding:1em 0; max-height: 1.5em; font-size:.9em; }
 .main-navigation ul li a { display:inline-block; }
 .main-navigation ul .current-menu-item > a { color:#C30; }
-.main-navigation ul li, .main-navigation ul li a { color:#333; }
+.main-navigation ul li, .main-navigation ul li a { color:#222; }
 .main-navigation > ul > li > a:hover, .main-navigation > ul > li > a.selected { border-bottom:1px dotted #ccc; }
 
 /* navigation level 2 */
@@ -125,7 +125,7 @@ h1.site-title a:hover { color:#000; }
 /* -------------------------------------------- */
 /* TYPOGRAPHY */
 /* headings and paragraphs */
-h1 { font-size: 2.20em; margin: 0.8em 0 0.4em 0; }
+h1 { font-size: 2.00em; margin: 0.8em 0 0.4em 0; }
 h2 { font-size: 1.60em; margin: 1.4em 0 0.8em 0; }
 h3 { font-size: 1.20em; margin: 1.0em 0 .6em 0; }
 h4 { font-size: 0.90em; margin: 1.0em 0 .6em 0; }
@@ -162,7 +162,7 @@ tr:nth-child(odd) td {}
 /* code and pre */
 pre { margin: 1.2em 0; font-family: Monaco, Menlo, Consolas, "Courier New", monospace; color: #333333;}
 pre code { margin:0; padding: 1em; line-height: 1.2; border: 1px solid #e0e0e0; display: block; }
-code { display: inline-block; padding: 0 0.4em; margin: 0 0.2em; background: #f5f5f5; font-size: 0.9375em; line-height: 1.4em; border: 1px solid #eee; }
+code { display: inline-block; padding: 0 0.4em; margin: 0 0.2em; background: #f0f0f0; font-size: 0.9375em; line-height: 1.4em; border: 1px solid #eee; }
 
 /* lists */
 ol, ul { margin: .2em 0 1em 0; }
@@ -300,7 +300,7 @@ input[type=submit].grass:active, input[type=button].grass:active, button.grass:a
 /* WIDGET AREA */
 .widget-area { padding:1em 0; color:#666; }
 #secondary .widget { padding:0 0 2.6em 2em; }
-.widget-title, .widget-title a { color:#444; }
+.widget-title, .widget-title a { color:#333; }
 .widget-area ul li { font-size:.9em; }
 .widget-area a { color:#333; }
 .widget-area a:hover { background-color:#f7f7f7; border-bottom:1px dotted #aaa; } 
@@ -435,7 +435,7 @@ input[type=submit].grass:active, input[type=button].grass:active, button.grass:a
 .social li a.friendfeed:hover { background-color: #2f72c4; }
 .social li a.github:hover { background-color: #000; }
 .social li a.wordpress:hover { background-color: #0083b3; }
-.social li a.pinterest:before, .social li a.instagram:before, .social li a.google:before { font-family: FontAwesome;  font-weight: normal; text-align:center; font-style: normal; pad text-decoration: inherit; font-size: 30px; }
+.social li a.pinterest:before, .social li a.instagram:before, .social li a.google:before { font-family: FontAwesome;  font-weight: normal; text-align:center; font-style: normal; text-decoration: inherit; font-size: 30px; }
 .social li a.pinterest:before { content: "\f0d2"; }
 .social li a.instagram:before { content: "\f083"; }
 .social li a.google:before { content: "\f0d4"; }
@@ -507,7 +507,7 @@ input[type=submit].grass:active, input[type=button].grass:active, button.grass:a
 /* -------------------------------------------- */
 /* BLOG */
 .hentry { padding: 1.25em 0 2.5em 0; }
-.blog-posts .entry-title, .portfolio-single .entry-title { font-size:1.9em;}
+.blog-posts .entry-title, .portfolio-single .entry-title { font-size:1.7em;}
 .entry-meta { padding:.6em 0 1.2em 0; color:#aaa; font-weight:400; font-size:.8em; letter-spacing:1px; text-align:center; }
 .entry-meta a, .nav-single a, .comment-meta a, .comment-reply-link, .navigation a, .post-pagination a, .related-posts a, .archives a, .tabs .tab-titles li a { color:#333; border-bottom:1px dotted #ccc; }
 .entry-meta a:hover, .site-content h1 a:hover, .nav-single a:hover, .comment-meta a:hover, .comment-reply-link:hover, .navigation a:hover, .post-pagination a:hover, .related-posts a:hover, .archives a:hover, .entry-content a.more-link:hover, .launch-wrap a:hover { color:#000; background-color:#f7f7f7; }
@@ -842,7 +842,7 @@ a.loadmore { display:block; position:relative; margin: 3em auto 0 auto; max-widt
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */ }
-.blog-masonry .hentry .entry-content { border-bottom: 2px solid #444; }
+.blog-masonry .hentry .entry-content { border-bottom: 2px solid #333; }
 .blog-masonry .entry-meta { display: none; }
 .blog-masonry .hentry h1 { font-size: 1.1em; }
 .blog-masonry .hentry p { font-size: 0.925em; }

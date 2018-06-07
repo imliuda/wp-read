@@ -4,11 +4,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Sun Jan 10 2016 13:51:06 GMT+0200 (GTB Standart Saati)\n"
 "POT-Revision-Date: Sun Jan 10 2016 13:51:19 GMT+0200 (GTB Standart Saati)\n"
-"PO-Revision-Date: 2017-11-29 17:33+0000\n"
+"PO-Revision-Date: 2018-06-07 16:46+0000\n"
 "Last-Translator: imliuda <imliuda@163.com>\n"
-"Language-Team: Chinese (China)\n"
-"Language: zh-CN\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr ""
 "_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
-"X-Generator: Loco - https://localise.biz/"
+"X-Generator: Loco https://localise.biz/"
 
 #: ../404.php:12
 msgid "404"
@@ -32,7 +32,7 @@ msgstr ""
 #: ../header.php:135 ../search.php:12 ../tg-masonry.php:9 ../tg-nosidebar.php:9
 #: ../tg-sidebar.php:9
 msgid "&#8594;"
-msgstr ""
+msgstr "→"
 
 #: ../comments.php:21
 #, php-format
@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../functions.php:897
 msgid "(Edit)"
-msgstr ""
+msgstr "（编辑）"
 
 #. translators: 1: date, 2: time
 #: ../functions.php:925
@@ -160,7 +160,7 @@ msgstr ""
 #: ../functions. php:1144 ../functions.php:1345 ../functions.php:1346
 #: ../functions.php:1460 .. functions.php:1556
 msgid "Add New"
-msgstr ""
+msgstr "新建"
 
 #: ../functions.php:975 ../functions.php:1348
 msgid "New"
@@ -169,7 +169,7 @@ msgstr ""
 #: ../functions.php:976 ../functions.php:1117 ../functions.php:1139
 #: ../functions. php:1349 ../functions.php:1455
 msgid "All"
-msgstr ""
+msgstr "所有"
 
 #: ../functions.php:977 ../functions.php:1350
 msgid "View"
@@ -407,15 +407,15 @@ msgstr ""
 
 #: ../functions.php:2146
 msgid "First"
-msgstr ""
+msgstr "第一页"
 
 #: ../functions.php:2379
 msgid "Last"
-msgstr ""
+msgstr "最后一页"
 
 #: ../functions.php:3369
 msgid "Colors"
-msgstr ""
+msgstr "颜色"
 
 #: ../functions.php:3375
 msgid "Link Color"
@@ -460,7 +460,7 @@ msgstr ""
 
 #. Name of the template
 msgid "Archive 2"
-msgstr ""
+msgstr "归档2"
 
 #: ../page-archive-2.php:34
 msgid "Last 30 posts"
@@ -484,7 +484,7 @@ msgstr ""
 
 #. Name of the template
 msgid "Archive"
-msgstr ""
+msgstr "归档"
 
 #: ../page-archive.php:29
 msgid "Post Archives"
@@ -496,7 +496,7 @@ msgstr ""
 
 #: ../page-archive.php:49
 msgid "Categories"
-msgstr ""
+msgstr "分类目录"
 
 #. Name of the template
 msgid "Contact"
@@ -549,7 +549,7 @@ msgstr ""
 
 #: ../page-portfolio.php:64 ../taxonomy-department.php:38
 msgid "all"
-msgstr ""
+msgstr "所有"
 
 #. Name of the template
 msgid "Page with Sidebar"
@@ -557,11 +557,11 @@ msgstr ""
 
 #: ../part-pagination.php:35
 msgid "&#8592; Older posts"
-msgstr ""
+msgstr "←较早文章"
 
 #: ../part-pagination.php:41
 msgid "Newer posts &#8594;"
-msgstr ""
+msgstr "较新文章→"
 
 #: ../part-share.php:2
 msgid "SHARE"
@@ -573,11 +573,11 @@ msgstr ""
 
 #: ../post-nosidebar.php:125 ../post-sidebar.php:125
 msgid "PREVIOUS POST"
-msgstr ""
+msgstr "上一篇"
 
 #: ../post-nosidebar.php:132 ../post-sidebar.php:132
 msgid "NEXT POST"
-msgstr ""
+msgstr "下一篇"
 
 #: ../search.php:12
 msgid "Search Results"
@@ -685,7 +685,7 @@ msgstr "评论导航"
 
 #: ../comments.php:45
 msgid "&larr; Older Comments"
-msgstr "&larr; 早期评论"
+msgstr "←较早评论"
 
 #: ../comments.php:52
 msgid "Newer Comments &rarr;"
